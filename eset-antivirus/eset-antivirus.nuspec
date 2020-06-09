@@ -6,21 +6,31 @@
     <id>eset-antivirus</id>
     <title>ESET Endpoint Antivirus 7</title>
     <version>7.2.2055</version>
+	<packageSourceUrl>https://github.com/sovamakarosh/chocolatey/tree/master/eset-antivirus</packageSourceUrl>
     <authors>ESET</authors>
     <owners>Slava Makarov</owners>
     <summary>Antivirus</summary>
-    <description>Legendary cybersecurity technology ESET INTERNET SECURITY EDITION 2020. Fast, light and invisible antivirus protects everything you treasure on your Windows, Mac, Android or Linux.</description>
+    <description>ESET NOD32 Antivirus, commonly known as NOD32, is an antivirus software package made by the Slovak company ESET. 
+	ESET NOD32 Antivirus is sold in two editions, Home Edition and Business Edition. 
+	The Business Edition packages add ESET Remote Administrator allowing for server deployment and management, 
+	mirroring of threat signature database updates and the ability to install on Microsoft Windows Server operating systems.
+	Legendary cybersecurity technology ESET INTERNET SECURITY EDITION 2020. 
+	Fast, light and invisible antivirus protects everything you treasure on your Windows, Mac, Android or Linux.</description>
     <projectUrl>https://www.esetnod32.ru/download/business/commercial/workstations/</projectUrl>
-    <tags>eset admin antivirus windows linux mac</tags>
-    <copyright></copyright>
+	<projectSourceUrl>https://www.esetnod32.ru/download/business/commercial/workstations/</projectSourceUrl>
+	<docsUrl>https://help.eset.com/eea/7/ru-RU/installation.html</docsUrl>
+	<mailingListUrl>https://www.esetnod32.ru/company/contact/</mailingListUrl>
+	<bugTrackerUrl>https://forum.eset.com/</bugTrackerUrl>
+    <tags>eset admin antivirus windows</tags>
+    <copyright>© 2020. ESET</copyright>
     <licenseUrl>https://help.eset.com/eea/7/ru-RU/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <iconUrl>https://raw.github.com/sovamakarosh/chocolatey/blob/master/eset-antivirus/src/eset.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/sovamakarosh/chocolatey/master/eset-antivirus/eset.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes>First pkg</releaseNotes>
+    <releaseNotes>Downloads the latest offline-install package. Requires a lisence key to use after initial trial period. 32bit, 64bit.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
