@@ -10,13 +10,13 @@
     <owners>Slava Makarov</owners>
     <summary>Antivirus</summary>
     <description>Legendary cybersecurity technology ESET INTERNET SECURITY EDITION 2020. Fast, light and invisible antivirus protects everything you treasure on your Windows, Mac, Android or Linux.</description>
-    <projectUrl>https://www.eset.com/</projectUrl>
+    <projectUrl>https://www.esetnod32.ru/download/business/commercial/workstations/</projectUrl>
     <tags>eset admin antivirus windows linux mac</tags>
     <copyright></copyright>
-    <licenseUrl>https://www.eset.com/</licenseUrl>
+    <licenseUrl>https://help.eset.com/eea/7/ru-RU/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <iconUrl>https://raw.github.com/sovamakarosh/chocolatey/blob/master/eset/src/eset.png</iconUrl>
+    <iconUrl>https://raw.github.com/sovamakarosh/chocolatey/blob/master/eset-antivirus/src/eset.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
