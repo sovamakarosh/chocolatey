@@ -11,14 +11,21 @@ cd ..\
 for %%a in (".") do set CURRENT_DIR_NAME=%%~na
 cd ./src
 
-echo ===== Test (install form local source) "%CURRENT_DIR_NAME%" package ====
+echo ===== Build "%CURRENT_DIR_NAME%" package ====
 
 set "PACKAGE_NANE=%CURRENT_DIR_NAME%"
 set "SRC_DIR=%~dp0"
 set "BUILD_DIR=..\build\%PACKAGE_NANE%"
 
-cd %BUILD_DIR%
-call cinst -fvy %PACKAGE_NANE% -s %CD% --pre
+#if exist "%BUILD_DIR%" (
+#	for %%i IN (%BUILD_DIR%\*) DO del %%i
+#) else (
+#	mkdir %BUILD_DIR%
+#)
+
+rem  Create package.
+call cpack -y
+#move "%SRC_DIR%\*.nupkg" "%BUILD_DIR%"
 
 if not "%1" == "1" (
 	pause

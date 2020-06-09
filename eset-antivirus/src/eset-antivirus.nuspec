@@ -3,24 +3,24 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>eset</id>
-    <title>__REPLACE__</title>
-    <version>__REPLACE__</version>
-    <authors>__REPLACE__</authors>
-    <owners>__CHOCO_PKG_MAINTAINER_NAME__</owners>
-    <summary>__REPLACE__</summary>
-    <description>__REPLACE__</description>
-    <projectUrl>__REPLACE__</projectUrl>
-    <tags>eset admin</tags>
+    <id>eset-antivirus</id>
+    <title>ESET Endpoint Antivirus 7</title>
+    <version>7.2.2055</version>
+    <authors>ESET</authors>
+    <owners>Slava Makarov</owners>
+    <summary>Antivirus</summary>
+    <description>Legendary cybersecurity technology ESET INTERNET SECURITY EDITION 2020. Fast, light and invisible antivirus protects everything you treasure on your Windows, Mac, Android or Linux.</description>
+    <projectUrl>https://www.eset.com/</projectUrl>
+    <tags>eset admin antivirus windows linux mac</tags>
     <copyright></copyright>
-    <licenseUrl>__REPLACE__</licenseUrl>
+    <licenseUrl>https://www.eset.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/eset.png</iconUrl>-->
+    <iconUrl>https://raw.github.com/sovamakarosh/chocolatey/blob/master/eset/src/eset.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>First pkg</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
