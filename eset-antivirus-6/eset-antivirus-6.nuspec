@@ -3,10 +3,10 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
 	<!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-	<id>eset-antivirus</id>
-	<title>ESET Endpoint Antivirus 7</title>
-	<version>7.2.2055</version>
-	<packageSourceUrl>https://github.com/sovamakarosh/chocolatey/tree/master/eset-antivirus</packageSourceUrl>
+	<id>eset-antivirus-6</id>
+	<title>ESET Endpoint Antivirus 6</title>
+	<version>6.6</version>
+	<packageSourceUrl>https://github.com/sovamakarosh/chocolatey/tree/master/eset-antivirus-6</packageSourceUrl>
 	<authors>ESET</authors>
 	<owners>Slava Makarov</owners>
 	<summary>Antivirus</summary>

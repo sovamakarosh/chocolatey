@@ -4,8 +4,8 @@
   <metadata>
 	<!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
 	<id>bareos-client</id>
-	<title>Winbareos 17.2.4</title>
-	<version>17.2.4</version>
+	<title>Winbareos</title>
+	<version>18.2.5</version>
 	<packageSourceUrl>https://github.com/sovamakarosh/chocolatey/tree/master/bareos-client</packageSourceUrl>
 	<authors>Bareos GmbH and Co.KG</authors>
 	<owners>Slava Makarov</owners>
@@ -14,11 +14,13 @@
 	The fork is in development since late 2010, it has a lot of new features. 
 	The source has been published on github, licensed AGPLv3.</description>
 	<projectUrl>https://www.bareos.org/en/</projectUrl>
+	<projectSourceUrl>https://www.bareos.org/en/open-source.html</projectSourceUrl>
 	<docsUrl>https://www.bareos.org/en/documentation.html</docsUrl>
 	<mailingListUrl>https://www.bareos.org/en/howto-contribute.html#mailinglists</mailingListUrl>
+	<bugTrackerUrl>https://bugs.bareos.org/my_view_page.php</bugTrackerUrl>
 	<tags>bareos winbareos admin backup windows</tags>
 	<copyright>© Copyright Bareos GmbH and Co. KG. Bareos is a registered Trademark of Bareos GmbH and Co. KG.</copyright>
-	<licenseUrl>https://github.com/bareos/bareos/blob/master/LICENSE</licenseUrl>
+	<licenseUrl>https://docs.bareos.org/Appendix/BareosCopyrightTrademarkAndLicenses.html</licenseUrl>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
 	<iconUrl>https://raw.github.com/C-Duv/chocolatey-winbareos/master/winbareos/winbareos-logo.png</iconUrl>
