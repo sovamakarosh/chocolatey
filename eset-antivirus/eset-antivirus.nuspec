@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-	<!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
 	<id>eset-antivirus</id>
-	<title>ESET Endpoint Antivirus 7</title>
+	<title>ESET Endpoint Antivirus</title>
 	<version>7.2.2055</version>
 	<packageSourceUrl>https://github.com/sovamakarosh/chocolatey/tree/master/eset-antivirus</packageSourceUrl>
 	<authors>ESET</authors>
 	<owners>Slava Makarov</owners>
 	<summary>Antivirus</summary>
-	<description>ESET NOD32 Antivirus, commonly known as NOD32, is an antivirus software package made by the Slovak company ESET. 
-	ESET NOD32 Antivirus is sold in two editions, Home Edition and Business Edition. 
-	The Business Edition packages add ESET Remote Administrator allowing for server deployment and management, 
-	mirroring of threat signature database updates and the ability to install on Microsoft Windows Server operating systems.
-	Legendary cybersecurity technology ESET INTERNET SECURITY EDITION 2020. 
-	Fast, light and invisible antivirus protects everything you treasure on your Windows, Mac, Android or Linux.</description>
+	<description>
+	ESET Endpoint Antivirus 7 is a complete security solution that is
+	the result is an optimal combination of degrees
+	protection with minimal impact on computer performance. Modern technologies,
+	based on the use of artificial intelligence, capable of proactively counteracting
+	infected viruses, spyware, trojans, adware, worms, rootkits and others
+	attack from the Internet without affecting computer performance and interruptions in work.
+	ESET Endpoint Antivirus 7 is designed for use on workstations in environments
+	small businesses. Using ESET Endpoint Antivirus in conjunction with ESET Remote Administrator in
+	corporate environment allows
+	apply policies and rules, detect detectable threats, and remotely configure clients with
+	any computer connected to the network.
+	Fast, light and invisible antivirus protects everything you treasure on your Windows, Mac, Android or Linux.
+	</description>
 	<projectUrl>https://www.esetnod32.ru/download/business/commercial/workstations/</projectUrl>
-	<!-- <projectSourceUrl>https://www.esetnod32.ru/download/business/commercial/workstations/</projectSourceUrl> -->
 	<docsUrl>https://help.eset.com/eea/7/ru-RU/installation.html</docsUrl>
 	<mailingListUrl>https://www.esetnod32.ru/company/contact/</mailingListUrl>
 	<bugTrackerUrl>https://forum.eset.com/</bugTrackerUrl>
@@ -25,11 +30,7 @@
 	<copyright>© 2020. ESET</copyright>
 	<licenseUrl>https://help.eset.com/eea/7/ru-RU/eula.html</licenseUrl>
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
 	<iconUrl>https://raw.githubusercontent.com/sovamakarosh/chocolatey/master/eset-antivirus/eset.png</iconUrl>
-	<!--<dependencies>
-	  <dependency id="" version="" />
-	</dependencies>-->
 	<releaseNotes>Downloads the latest offline-install package. Requires a lisence key to use after initial trial period. 32bit, 64bit.</releaseNotes>
   </metadata>
   <files>
