@@ -9,9 +9,9 @@ $packageArgs = @{
   fileType      = 'MSI'
   url           = 'https://download.eset.com/com/eset/apps/business/eea/windows/latest/eea_nt32.msi'
   url64bit      = 'https://download.eset.com/com/eset/apps/business/eea/windows/latest/eea_nt64.msi'
-  checksum      = '1B0E50372A2AD7B752363E30EAA3A83367B1D5A880C4C6338C4E30E91F248141'
+  checksum      = '63DB41DD5400C03A572D9141488B2791D5A807CE8A173A4695F1AAE905939013'
   checksumType  = 'sha256'
-  checksum64    = 'CB0A61ECE14C753074F94FC0302DAD875148391001A43265F52395D918129D1C'
+  checksum64    = 'D8CB72E5A921262DD3C1FE8FE172090F46680F0657C250D21727FC5C79E647BF'
   checksumType64= 'sha256'
 
   silentArgs    = '/qn'
